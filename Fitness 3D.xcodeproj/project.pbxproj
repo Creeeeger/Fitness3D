@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F58ED9F32B784244002AAAEC /* WorldAssets in Frameworks */ = {isa = PBXBuildFile; productRef = F58ED9F22B784244002AAAEC /* WorldAssets */; };
+		F5D44C2E2B73ABC9007DB97F /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = F5D44C2D2B73ABC9007DB97F /* RealityKitContent */; };
+		F5D44C302B73ABC9007DB97F /* Fitness_3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D44C2F2B73ABC9007DB97F /* Fitness_3DApp.swift */; };
+		F5D44C322B73ABC9007DB97F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D44C312B73ABC9007DB97F /* ContentView.swift */; };
+		F5D44C342B73ABC9007DB97F /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D44C332B73ABC9007DB97F /* ImmersiveView.swift */; };
+		F5D44C362B73ABC9007DB97F /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = F5D44C352B73ABC9007DB97F /* ImageBasedLighting.skybox */; };
+		F5D44C382B73ABCB007DB97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D44C372B73ABCB007DB97F /* Assets.xcassets */; };
+		F5D44C3B2B73ABCB007DB97F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D44C3A2B73ABCB007DB97F /* Preview Assets.xcassets */; };
+		F5D44C462B73ABCB007DB97F /* Fitness_3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D44C452B73ABCB007DB97F /* Fitness_3DTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D44C422B73ABCB007DB97F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D44C202B73ABC9007DB97F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D44C272B73ABC9007DB97F;
+			remoteInfo = "Fitness 3D";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F58EDA0B2B7843A1002AAAEC /* WorldAssets */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = WorldAssets; sourceTree = "<group>"; };
+		F5D44C282B73ABC9007DB97F /* Fitness 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D44C2C2B73ABC9007DB97F /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		F5D44C2F2B73ABC9007DB97F /* Fitness_3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_3DApp.swift; sourceTree = "<group>"; };
+		F5D44C312B73ABC9007DB97F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5D44C332B73ABC9007DB97F /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		F5D44C352B73ABC9007DB97F /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		F5D44C372B73ABCB007DB97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5D44C3A2B73ABCB007DB97F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5D44C3C2B73ABCB007DB97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D44C412B73ABCB007DB97F /* Fitness 3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness 3DTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D44C452B73ABCB007DB97F /* Fitness_3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_3DTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D44C252B73ABC9007DB97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58ED9F32B784244002AAAEC /* WorldAssets in Frameworks */,
+				F5D44C2E2B73ABC9007DB97F /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D44C3E2B73ABCB007DB97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D44C1F2B73ABC9007DB97F = {
+			isa = PBXGroup;
+			children = (
+				F5D44C2A2B73ABC9007DB97F /* Fitness 3D */,
+				F5D44C2B2B73ABC9007DB97F /* Packages */,
+				F5D44C442B73ABCB007DB97F /* Fitness 3DTests */,
+				F5D44C292B73ABC9007DB97F /* Products */,
+				F5F9F0652B783D0200B7949F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D44C292B73ABC9007DB97F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D44C282B73ABC9007DB97F /* Fitness 3D.app */,
+				F5D44C412B73ABCB007DB97F /* Fitness 3DTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D44C2A2B73ABC9007DB97F /* Fitness 3D */ = {
+			isa = PBXGroup;
+			children = (
+				F5D44C2F2B73ABC9007DB97F /* Fitness_3DApp.swift */,
+				F5D44C312B73ABC9007DB97F /* ContentView.swift */,
+				F5D44C332B73ABC9007DB97F /* ImmersiveView.swift */,
+				F5D44C352B73ABC9007DB97F /* ImageBasedLighting.skybox */,
+				F5D44C372B73ABCB007DB97F /* Assets.xcassets */,
+				F5D44C3C2B73ABCB007DB97F /* Info.plist */,
+				F5D44C392B73ABCB007DB97F /* Preview Content */,
+			);
+			path = "Fitness 3D";
+			sourceTree = "<group>";
+		};
+		F5D44C2B2B73ABC9007DB97F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F58EDA0B2B7843A1002AAAEC /* WorldAssets */,
+				F5D44C2C2B73ABC9007DB97F /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		F5D44C392B73ABCB007DB97F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5D44C3A2B73ABCB007DB97F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5D44C442B73ABCB007DB97F /* Fitness 3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D44C452B73ABCB007DB97F /* Fitness_3DTests.swift */,
+			);
+			path = "Fitness 3DTests";
+			sourceTree = "<group>";
+		};
+		F5F9F0652B783D0200B7949F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D44C272B73ABC9007DB97F /* Fitness 3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D44C492B73ABCB007DB97F /* Build configuration list for PBXNativeTarget "Fitness 3D" */;
+			buildPhases = (
+				F5D44C242B73ABC9007DB97F /* Sources */,
+				F5D44C252B73ABC9007DB97F /* Frameworks */,
+				F5D44C262B73ABC9007DB97F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness 3D";
+			packageProductDependencies = (
+				F5D44C2D2B73ABC9007DB97F /* RealityKitContent */,
+				F58ED9F22B784244002AAAEC /* WorldAssets */,
+			);
+			productName = "Fitness 3D";
+			productReference = F5D44C282B73ABC9007DB97F /* Fitness 3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D44C402B73ABCB007DB97F /* Fitness 3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D44C4C2B73ABCB007DB97F /* Build configuration list for PBXNativeTarget "Fitness 3DTests" */;
+			buildPhases = (
+				F5D44C3D2B73ABCB007DB97F /* Sources */,
+				F5D44C3E2B73ABCB007DB97F /* Frameworks */,
+				F5D44C3F2B73ABCB007DB97F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D44C432B73ABCB007DB97F /* PBXTargetDependency */,
+			);
+			name = "Fitness 3DTests";
+			productName = "Fitness 3DTests";
+			productReference = F5D44C412B73ABCB007DB97F /* Fitness 3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D44C202B73ABC9007DB97F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F5D44C272B73ABC9007DB97F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F5D44C402B73ABCB007DB97F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F5D44C272B73ABC9007DB97F;
+					};
+				};
+			};
+			buildConfigurationList = F5D44C232B73ABC9007DB97F /* Build configuration list for PBXProject "Fitness 3D" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D44C1F2B73ABC9007DB97F;
+			packageReferences = (
+				F5F9F0622B783CAD00B7949F /* XCLocalSwiftPackageReference "Packages/WorldAssets" */,
+			);
+			productRefGroup = F5D44C292B73ABC9007DB97F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D44C272B73ABC9007DB97F /* Fitness 3D */,
+				F5D44C402B73ABCB007DB97F /* Fitness 3DTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D44C262B73ABC9007DB97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D44C382B73ABCB007DB97F /* Assets.xcassets in Resources */,
+				F5D44C3B2B73ABCB007DB97F /* Preview Assets.xcassets in Resources */,
+				F5D44C362B73ABC9007DB97F /* ImageBasedLighting.skybox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D44C3F2B73ABCB007DB97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D44C242B73ABC9007DB97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D44C322B73ABC9007DB97F /* ContentView.swift in Sources */,
+				F5D44C302B73ABC9007DB97F /* Fitness_3DApp.swift in Sources */,
+				F5D44C342B73ABC9007DB97F /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D44C3D2B73ABCB007DB97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D44C462B73ABCB007DB97F /* Fitness_3DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D44C432B73ABCB007DB97F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D44C272B73ABC9007DB97F /* Fitness 3D */;
+			targetProxy = F5D44C422B73ABCB007DB97F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5D44C472B73ABCB007DB97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		F5D44C482B73ABCB007DB97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		F5D44C4A2B73ABCB007DB97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness 3D/Preview Content\"";
+				DEVELOPMENT_TEAM = 66VFR5D688;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fitness 3D";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.creckerid.Fitness-3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		F5D44C4B2B73ABCB007DB97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness 3D/Preview Content\"";
+				DEVELOPMENT_TEAM = 66VFR5D688;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fitness 3D";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.creckerid.Fitness-3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		F5D44C4D2B73ABCB007DB97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66VFR5D688;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.creckerid.Fitness-3DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness 3D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitness 3D";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		F5D44C4E2B73ABCB007DB97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66VFR5D688;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.creckerid.Fitness-3DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness 3D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitness 3D";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D44C232B73ABC9007DB97F /* Build configuration list for PBXProject "Fitness 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D44C472B73ABCB007DB97F /* Debug */,
+				F5D44C482B73ABCB007DB97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D44C492B73ABCB007DB97F /* Build configuration list for PBXNativeTarget "Fitness 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D44C4A2B73ABCB007DB97F /* Debug */,
+				F5D44C4B2B73ABCB007DB97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D44C4C2B73ABCB007DB97F /* Build configuration list for PBXNativeTarget "Fitness 3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D44C4D2B73ABCB007DB97F /* Debug */,
+				F5D44C4E2B73ABCB007DB97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F5F9F0622B783CAD00B7949F /* XCLocalSwiftPackageReference "Packages/WorldAssets" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/WorldAssets;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F58ED9F22B784244002AAAEC /* WorldAssets */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WorldAssets;
+		};
+		F5D44C2D2B73ABC9007DB97F /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5D44C202B73ABC9007DB97F /* Project object */;
+}
