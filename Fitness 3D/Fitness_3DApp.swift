@@ -9,3 +9,9 @@ struct Fitness_3DApp: App {
         }
     }
 }
+
+struct ContentView_Previews_Main: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
