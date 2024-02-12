@@ -1,35 +1,34 @@
-//
-//  ImmersiveView.swift
-//  Fitness 3D
-//
-//  Created by Gregor on 07.02.24.
-//
-
 import SwiftUI
 import RealityKit
-import RealityKitContent
 
-struct ImmersiveView: View {
+struct Starfield: View {
     var body: some View {
         RealityView { content in
-            // Add the initial RealityKit content
-            if let immersiveContentEntity = try? await Entity(named: "Immersive", in: realityKitContentBundle) {
-                content.add(immersiveContentEntity)
-
-                // Add an ImageBasedLight for the immersive content
-                guard let resource = try? await EnvironmentResource(named: "ImageBasedLight") else { return }
-                let iblComponent = ImageBasedLightComponent(source: .single(resource), intensityExponent: 0.25)
-                immersiveContentEntity.components.set(iblComponent)
-                immersiveContentEntity.components.set(ImageBasedLightReceiverComponent(imageBasedLight: immersiveContentEntity))
-
-                // Put skybox here.  See example in World project available at
-                // https://developer.apple.com/
+            // Create a material with a star field on it.
+            guard let resource = try? await TextureResource(named: "Starfield") else {
+                // If the asset isn't available, something is wrong with the app.
+                fatalError("Unable to load starfield texture.")
             }
+            var material = UnlitMaterial()
+            material.color = .init(texture: .init(resource))
+
+            // Attach the material to a large sphere.
+            let entity = Entity()
+            entity.components.set(ModelComponent(
+                mesh: .generateSphere(radius: 1000),
+                materials: [material]
+            ))
+
+            // Ensure the texture image points inward at the viewer.
+            entity.scale *= .init(x: -1, y: 1, z: 1)
+
+            content.add(entity)
         }
     }
 }
-
-#Preview {
-    ImmersiveView()
-        .previewLayout(.sizeThatFits)
+struct ContentView_Previews_immersive: PreviewProvider {
+    static var previews: some View {
+        Starfield()
+            .previewLayout(.sizeThatFits)
+    }
 }
